@@ -53,14 +53,34 @@
 # x=5
 # y=8
 # # print(f'I eat {x} fr and {y} veg in a')
-line='The Himalayas are one of the youngest mountain ranges on the planet'
+# line='The Himalayas are one of the youngest mountain ranges on the planet'
 # print(line[4:13])
 # print(line[-30:-15])
 # string= "There are 9 planets in the solar system"; print(string.replace('9','8'))
-abc=f'{line[:13]} {line[-13:]}'
-print(abc)
-
-
+# abc=f'{line[:13]} {line[-13:]}'
+# print(abc)
+# items=['rice','pasta','butter','bread','cheese']
+# items.reverse()
+# print(items)
+# items.insert(1,'peas')
+# items.remove('rice')
+# print(items)
+# print('rice' in items)
+# print(items.sort())
+# print(items)
+# expenses=[8,9,3,6,2,8,5,0,3,8,3,1,4]
+# expenses.sort(reverse=True)
+# print(expenses)
+# new_list=items+expenses
+# print(new_list)
+# print(len(new_list))
+avengers  = ["Iron Man", "Captain America", "Black Widow", "Hulk", "Thor", "Hawkeye"]
+print(len(avengers))
+avengers.append('spiderman')
+print(avengers)
+avengers.remove('Captain America')
+avengers.insert(0,'Captain America')
+print(avengers)
 
 
 
