@@ -74,13 +74,67 @@
 # new_list=items+expenses
 # print(new_list)
 # print(len(new_list))
-avengers  = ["Iron Man", "Captain America", "Black Widow", "Hulk", "Thor", "Hawkeye"]
-print(len(avengers))
-avengers.append('spiderman')
-print(avengers)
-avengers.remove('Captain America')
-avengers.insert(0,'Captain America')
-print(avengers)
+# avengers  = ["Iron Man", "Captain America", "Black Widow", "Hulk", "Thor", "Hawkeye"]
+# print(len(avengers))
+# avengers.append('spiderman')
+# print(avengers)
+# avengers.remove('Captain America')
+# avengers.insert(0,'Captain America')
+# print(avengers)
+# n=input('Enter a number:')
+# n=int(n)
+# if n%2==0:
+#     print('no is even')
+# if n%3==0:
+#     print("no is divisible by 3")
+# else:
+#     print('no is odd')
+# indian=['rice','roti','paneer','dhokla']
+# italian=['roll','pizza','pasta','risotto']
+# chinese=['noodles','fried rice','manchurian','pot sticker']
+# dish=input("dish is:")
+# if dish in indian:
+#     print(f"{dish} is indian")
+# elif dish in italian:
+#     print(f"{dish} is italian")
+# elif dish in chinese:
+#     print(f"{dish} is chinese")
+# else:
+#     print("cuisine is unknown")
+# n=int(input("number is:"))
+# message = "number is even" if n%2==0 else "number is odd"
+# print(message)
 
-
+# height=float(input("height is:")); print(height)
+# weight=int(input("weight is:")); print(weight)
+# BMI=weight/(height**2)
+# if BMI>=30:
+#     print("obese")
+# elif 25<BMI<29:
+#     print("overweight")
+# elif 18.5<BMI<25:
+#     print("normal")
+# elif BMI<18.5:
+#     print("underweight")
+India = ["Mumbai", "Bangalore", "Chennai", "Delhi"]
+USA = ["New York","Chicago","Las Vegas", "san francisco"]
+UK = ["London", "Manchester", "Liverpool", "Nottingham"]
+city_1=input("city 1 is:")
+if city.lower() in India:
+    print(f'{city} is in india')
+elif city.lower() in USA:
+    print(f'{city} is in USA')    
+elif city in UK:
+    print(f'{city} is in UK')    
+else:
+    print("Unknown")
+city_2=input("city 2 is:")
+if city_1 in India and city_2 in India:
+    print(f'{city_1} and {city_2} are in india')
+elif city_1 in USA and city_2 in USA:
+    print(f'{city_1} and {city_2} are in USA')
+elif city_1 in UK and city_2 in UK:
+    print(f'{city_1} and {city_2} are in UK')
+else:
+    print("Both cities are not in same country")
 
