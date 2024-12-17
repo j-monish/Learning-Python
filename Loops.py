@@ -1,4 +1,12 @@
-# expenses=[1200,1300,1500,1700,1500,1700,1500,1700]
+# expenses=[1200,1300,1500,1700]
+# j=0 
+# for i in expenses:
+#         j+=i
+# print(j)
+
+
+
+
 
 # For loop working
 # for i in range(0, len(expenses)):
@@ -24,7 +32,7 @@
 # Pattern printing problems
 
 # a=" *"
-n=int(input("n:"))
+# n=int(input("n:"))
 
 # *
 # **
@@ -134,13 +142,16 @@ n=int(input("n:"))
 
 
 # 0 1 1 2 3 5 8
-a=0
-b=1
-i=a+b
-for i in range(0,n):
-    i=i+a+b
-    print(i)
-
+# a=0
+# b=1
+# i=a+b
+# for i in range(0,n):
+#     i=i+a+b
+#     print(i)
+# sum=0
+# for i in range(2,21,2):
+#         sum+=i
+# print(sum)        
 
 
 
